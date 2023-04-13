@@ -17,7 +17,7 @@ The repo depends on the latest plugin API (obsidian.d.ts) in Typescript Definiti
 
 ## Manually installing the plugin
 
-Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`.
+Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/obsidian-codestats/`.
 
 ## API Documentation
 
