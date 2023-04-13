@@ -2,10 +2,10 @@
 	"id": "codestats-obsidian",
 	"name": "Code::Stats plugin for Obsidian",
 	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
+	"minAppVersion": "1.11.6",
 	"description": "Code::Stats (https://codestats.net) plugin for Obsidian (https://obsidian.md)",
 	"author": "MiskaMyasa",
-	"authorUrl": "https://paragraph.red",
-	"fundingUrl": "https://paragraph.red",
+	"authorUrl": "https://github.com/Miskamyasa",
+	"fundingUrl": "https://patreon.com/MiskaMyasa",
 	"isDesktopOnly": true
 }
