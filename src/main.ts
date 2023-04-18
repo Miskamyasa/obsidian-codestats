@@ -1,4 +1,4 @@
-import {App, Modal, Plugin, PluginSettingTab, Setting} from 'obsidian';
+import {Modal, Plugin, requestUrl} from 'obsidian';
 
 import getISOTimestamp from "./getISOTimestamp";
 import {ICodeStatsPlugin, IPluginSettings} from './types';
@@ -68,7 +68,8 @@ export default class CodeStatsPlugin extends Plugin implements ICodeStatsPlugin 
             return;
         }
         try {
-            void fetch(this.settings.API_URL + "/my/pulses", {
+            void requestUrl({
+                url: this.settings.API_URL + "/my/pulses",
                 method: 'POST',
                 headers: {
                     'X-API-Token': this.settings.API_KEY,
@@ -81,7 +82,7 @@ export default class CodeStatsPlugin extends Plugin implements ICodeStatsPlugin 
                         xp: this.counter
                     }]
                 })
-            })
+            });
         } finally {
             this.counter = 0;
         }

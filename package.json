@@ -1,6 +1,6 @@
 {
 	"name": "codestats-obsidian",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Code::Stats (https://codestats.net) plugin for Obsidian (https://obsidian.md)",
 	"main": "main.js",
 	"scripts": {
