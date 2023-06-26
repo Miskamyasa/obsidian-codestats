@@ -1,9 +1,9 @@
 {
-	"id": "codestats-obsidian",
+	"id": "codestats",
 	"name": "Code::Stats",
-	"version": "1.0.3",
+	"version": "1.0.0",
 	"minAppVersion": "1.1.16",
-	"description": "Code::Stats (https://codestats.net) plugin for Obsidian (https://obsidian.md)",
+	"description": "The Code::Stats plugin allows you to track your coding progress and earn XP for writing markdown in the Obsidian editor.",
 	"author": "MiskaMyasa",
 	"authorUrl": "https://github.com/Miskamyasa",
 	"fundingUrl": "https://patreon.com/MiskaMyasa",
