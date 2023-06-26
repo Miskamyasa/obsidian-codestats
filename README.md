@@ -23,9 +23,9 @@ See https://github.com/obsidianmd/obsidian-api
 
 ## Summary
 
-Plugin ID: codestats
-Developer: Denis (MiskaMyasa) Zaitsev
-Mobile support: No
+**Plugin ID:** codestats   
+**Developer:** Denis (MiskaMyasa) Zaitsev   
+**Mobile support:** No   
 
 #codestats #obsidian #plugin
 
