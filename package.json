@@ -1,6 +1,6 @@
 {
 	"name": "codestats-obsidian",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "The Code::Stats plugin allows you to track your coding progress and earn XP for writing markdown in the Obsidian editor.",
 	"main": "main.js",
 	"scripts": {
