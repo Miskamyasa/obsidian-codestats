@@ -20,9 +20,8 @@ jobs:
 
             - name: Build plugin
               run: |
-                  corepack enable # Enable Corepack (pnpm manager)
-                  pnpm install
-                  pnpm run build
+                  npm install
+                  npm run build
 
             - name: Create release
               env:
